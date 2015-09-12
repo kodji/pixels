@@ -1,0 +1,30 @@
+{
+  "name": "pixels",
+  "version": "0.0.1",
+  "description": "browser based SVG editor to make pixel-like svg images",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodji/pixels.git"
+  },
+  "keywords": [
+    "pixels",
+    "svg",
+    "kodji",
+    "javascript"
+  ],
+  "author": "kodji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kodji/pixels/issues"
+  },
+  "homepage": "https://github.com/kodji/pixels",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.0.4"
+  }
+}

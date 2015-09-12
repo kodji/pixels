@@ -1,0 +1,29 @@
+{
+  "name": "pixels",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kodji/pixels",
+  "authors": [
+    "kodji <k@odj.in>"
+  ],
+  "description": "browser based SVG editor to make pixel-like svg images",
+  "main": "index.jade",
+  "keywords": [
+    "SVG",
+    "editor",
+    "pixels",
+    "kodji"
+  ],
+  "directory": "../build/components",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~2.1.3"
+  }
+}
