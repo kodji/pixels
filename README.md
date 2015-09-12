@@ -1,8 +1,10 @@
 # pixels - Yet another SVG editor
 
-Browser based SVG editor to make pixel-like svg imagesSimple svg editor.
+Browser based SVG editor to make pixel-like svg images.
 
-I use this project for experiments with new libraries and technologies
+I use this project for experiments with new libraries and technologies.
+
+If you too lazy to build this, but want to see how it works - feel free to ask me to show.
 
 ## Main ideas:
 
