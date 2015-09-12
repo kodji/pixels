@@ -1,0 +1,29 @@
+$unit: 22px;
+
+body {
+  font-family: Menlo, "Arial Unicode MS", sans-serif;
+  font-size: $unit
+
+}
+#app {
+  background-color: #ddd;
+  text-align: center;
+  h3 {
+    color: #96d7ff;
+    margin: 0 0 $unit 0;
+    padding: 0;
+  }
+}
+#palette {
+  display: inline-block;
+  width: 160px;
+  height: 10px;
+  margin-bottom: $unit;
+  cursor: pointer;
+}
+#svg {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+}

@@ -24,7 +24,11 @@
   "homepage": "https://github.com/kodji/pixels",
   "dependencies": {
     "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "gulp-sequence": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2"
   }
 }

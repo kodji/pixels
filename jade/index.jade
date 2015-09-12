@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    title pixels
+    link(rel="stylesheet", href="/components/semantic-ui/dist/semantic.min.css")
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    .container
+      .row
+        .col-md-4
+          #app.col-md-4
+            h3 pixels
+            svg#palette
+            | &emsp;
+            a#dl(href="#") download
+            br
+            svg#svg
+        .col-md-4
+    script(type="application/javascript", src="/components/jquery/dist/jquery.min.js")
+    script(type="application/javascript", src="/components/semantic-ui/dist/semantic.min.js")
+    script(type="application/javascript", src="/components/Snap.svg/dist/snap.svg-min.js")
+    script(type="application/javascript", src="/js/all.js")
