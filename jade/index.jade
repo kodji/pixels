@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+doctype html
 html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
-    meta(http-equiv="x-ua-compatible", content="ie=edge")
-    title pixels
-    link(rel="stylesheet", href="/components/semantic-ui/dist/semantic.min.css")
-    link(rel="stylesheet", href="/css/style.css")
+  include ./partial/head.jade
+  +head('Pixels')
   body
-    .container
-      .row
-        .col-md-4
-          #app.col-md-4
-            h3 pixels
-            svg#palette
-            | &emsp;
-            a#dl(href="#") download
-            br
-            svg#svg
-        .col-md-4
-    script(type="application/javascript", src="/components/jquery/dist/jquery.min.js")
-    script(type="application/javascript", src="/components/semantic-ui/dist/semantic.min.js")
-    script(type="application/javascript", src="/components/Snap.svg/dist/snap.svg-min.js")
-    script(type="application/javascript", src="/js/all.js")
+    include ./partial/main-menu
+    .ui.main.text.container
+      h1.ui.header Pixels
+      p Yet another SVG editor
+      p
+        | Click on the palette to choose color. Draw in the draw place. Download result
+      p
+        span Palette
+        br
+        svg#palette
+      p
+        span Draw place
+        br
+        svg#svg
+      p
+        a#dl.ui.green.basic.button(href="#")
+          i.save.icon
+          span Save result
+    include ./partial/footer.jade
+    include ./partial/scripts-editor.jade
